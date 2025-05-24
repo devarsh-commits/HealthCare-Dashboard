@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+.header{
+    /* border: 2px solid red; */
+    width: 98vw;
+    height: 95px;
+    display: flex;
+    margin: 1px auto;
+    border-radius: 10px;
+}
+.logo{
+    box-sizing: border-box;
+    /* border: 2px solid green; */
+    background-color: rgb(246 250 255);
+    width: 18%;
+    display: flex;
+    font-size:0.8em;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Baloo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:lighter;
+    border-top-left-radius: 8px;
+ 
+}
+.searchbox{
+    /* border: 2px solid red; */
+    width: 41%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.searchbox .img{
+    /* border: 2px solid red; */
+    width: 25px;
+    height: 30px;
+    position: relative;
+    left: 60px;
+    cursor: pointer;
+}
+.search{
+    border: 2px solid rgb(219, 217, 217);
+    width: 78%;
+    height: 35px;
+    padding-left: 60px;
+    border-radius: 8px;
+    font-family: "Baloo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1em
+
+}
+.noti{
+ /* border: 2px solid black; */
+ width: 40px;
+ height: 35px;
+ border: 2px solid rgb(219, 217, 217);
+ cursor: pointer;
+ margin-left:2px;
+ margin-right: 10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 8px;
+}
+.noti img{
+    width: 25px;
+}
+.profile{
+    width: 41%;
+    background-color: rgb(246 250 255);
+    border-top-right-radius: 8px;
+}
+.profile{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    align-items: center;
+}
+.avtar img{
+    /* border: 2px solid red; */
+    width: 40px;
+    height: 35px;
+    object-fit: cover;
+    object-position:top;
+    border-radius: 8px;
+}
+.name{
+     font-family: "Baloo 2", sans-serif;
+  font-optical-sizing: auto;
+  color: #070778;
+  font-weight: bold;
+}
+.plus{
+    width: 40px;
+    height: 35px;
+    border-radius: 8px;
+    margin-right: 30px;
+    background-color: rgb(41, 34, 168);
+    color: white;
+      font-family: "Baloo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
