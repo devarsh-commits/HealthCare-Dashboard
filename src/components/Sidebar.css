@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
 .side{
     /* border: 2px solid red; */
-    width:18%;
+    width:100%;
     height:83vh;
-    margin-left: 7px;
+    /* margin-left: 7px; */
     background-color: rgb(246 250 255);
     display: flex;
     flex-direction: column;

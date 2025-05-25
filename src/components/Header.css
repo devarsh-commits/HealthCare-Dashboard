@@ -5,7 +5,7 @@
     width: 98vw;
     height: 95px;
     display: flex;
-    margin: 1px auto;
+    /* margin: 1px auto; */
     border-radius: 10px;
 }
 .logo{
