@@ -67,3 +67,43 @@
     background: white;
 
 }
+.dashbody{
+    box-sizing: border-box;
+border: 2px solid red;
+width: 100%;
+height: 76vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.dashbody .container{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 100%;
+    height: 65%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(246 250 255); */
+}
+.ana-body{
+    border: 2px solid black;
+    width: 55%;
+    height: 100%;
+}
+.dashbody .healthstat{
+    box-sizing: border-box;
+    border: 2px solid red;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.activity{
+    width: 100%;
+    height: 35%;
+    border: 2px solid yellow;
+}

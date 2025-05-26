@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+.bdy-cont {
+    box-sizing: border-box;
+    /* border: 2px solid yellow; */
+      background-color: rgb(246 250 255);
+    border-radius: 15px;
+    width: 65%;
+    height: 30%;
+    padding-left: 15px;
+    padding-top: 10px;
+    
+}
+
+.bdy-status {
+    /* border: 2px solid green; */
+    width: 70%;
+    display: flex;
+    gap: 10px;
+}
+
+.bdy-status img {
+    width: 25%;
+}
+
+.date {
+    font-size: 0.7em;
+    color: gray;
+    font-family: "Baloo 2", sans-serif;
+    font-optical-sizing: auto;
+}
