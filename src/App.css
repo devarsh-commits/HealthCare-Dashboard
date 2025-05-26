@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
 .main {
     /* border: 2px solid red; */
     margin: 5px 5px 8px;
@@ -69,7 +70,7 @@
 }
 .dashbody{
     box-sizing: border-box;
-border: 2px solid red;
+/* border: 2px solid red; */
 width: 100%;
 height: 76vh;
 display: flex;
@@ -79,7 +80,7 @@ align-items: center;
 }
 .dashbody .container{
     box-sizing: border-box;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 100%;
     height: 65%;
     padding: 20px;
@@ -88,22 +89,113 @@ align-items: center;
     /* background-color: rgb(246 250 255); */
 }
 .ana-body{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 55%;
     height: 100%;
 }
 .dashbody .healthstat{
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 45%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
 }
 .activity{
     width: 100%;
     height: 35%;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
+}
+.schedule{
+    /* border: 2px solid red; */
+}
+.calhead{
+    box-sizing: border-box;
+      /* border: 2px solid red; */
+    display: flex;
+      padding-left: 22px;
+    padding-right: 22px;    
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.calhead .title{
+      width: 50%;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(41 36 125);
+    
+}
+.calhead .arrow{
+    width: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.schedule .cal-cont{
+    box-sizing: border-box;
+    border: 2px solid black;
+    height: 30%;
+       display: grid;
+    grid-template-columns: repeat(7,1fr);
+     font-family: "Baloo 2", sans-serif;
+    font-optical-sizing: auto;
+      color: rgb(41 36 125);
+      font-size: 0.8em;
+      font-weight:normal;
+}
+.cal-cont div{
+    display: flex;
+    justify-content: center;
+}
+.cal-cont div:nth-child(n + 8):nth-child(-n + 14){
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.cal-cont div:nth-child(7n+2){
+    /* border: 2px solid red; */
+        background-color: rgb(237 244 255);
+}
+.cal-cont div:nth-child(7n+7){
+    color: rgb(166, 165, 165);
+}
+.cal-cont div:nth-child(2){
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.cal-cont div:nth-child(30){
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.cal-cont div:nth-child(21){
+    box-sizing: border-box;
+    background-color: rgb(171 176 220);
+      border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        color: white;
+}
+.cal-cont div:nth-child(20){
+     box-sizing: border-box;
+    background-color: rgb(171 176 220);
+      border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        color: white;
+}
+.cal-cont div:nth-child(25){
+      
+      background-color: rgb(171 176 220);
+      border-radius: 10px;
+      color: white;
+}
+.cal-cont div:nth-child(25){
+      
+      background-color:rgb(41, 34, 168);
+      border-radius: 10px;
+      color: white;
+}
+.appointment{
+    border: 2px solid red;
+    height: 25%;
 }

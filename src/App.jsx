@@ -9,6 +9,9 @@ import Sidebar from './components/Sidebar'
 import AnatomySec from './components/AnatomySec'
 import HealthStatus from './components/HealthStatus'
 import { healthstat } from './data/healthstat'
+import arrow from './assets/arrow.svg'
+import Calender from './components/Calender'
+import { Caldata } from './data/Calenderdata'
 
 function App() {
 
@@ -43,7 +46,29 @@ function App() {
                 <div className="activity">hii</div>
               </div>
             </div>
-            <div className="schedule"></div>
+            <div className="schedule">
+              <div className="calhead">
+                <div className="title">October 2021</div>
+                <div className="arrow">
+                  <img src={arrow} alt="" className='arrow-rt' />
+                  <img src={arrow} alt="" className='arrow-lt' />
+                </div>
+              </div>
+              <div className="cal-cont">
+                {
+                  [0,1,2,3,4].map((dt)=>{
+                   return Caldata[0].map((_,index)=>{
+                      return <Calender
+                      val={Caldata[dt][index]}
+                      />
+                    })
+                  })
+                }
+              </div>
+              <div className="appointment">
+                
+              </div>
+            </div>
           </div>
         </div>
 

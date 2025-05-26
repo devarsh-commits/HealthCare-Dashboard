@@ -5,10 +5,11 @@
     /* border: 2px solid yellow; */
       background-color: rgb(246 250 255);
     border-radius: 15px;
-    width: 65%;
+    width: 80%;
     height: 30%;
     padding-left: 15px;
     padding-top: 10px;
+    margin-left: 30px;
     
 }
 
@@ -28,4 +29,7 @@
     color: gray;
     font-family: "Baloo 2", sans-serif;
     font-optical-sizing: auto;
+}
+.bdy-cont .prog{
+    width:70%;
 }
