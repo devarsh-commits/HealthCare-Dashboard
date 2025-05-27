@@ -7,10 +7,10 @@ const AnatomySec = () => {
     return (
         <div className='main-an'>
             <img src={body} alt="" />
-            <div className='health-indicator a'>
+            <div className='health-indicator '>
                 <div className="healthdt1">
                     <img src={scan} alt="" />
-                    <div className='health-heart'>
+                    <div className='health-heart a'>
                         <p>💖</p>
                         <p>Healthy Heart</p>
                         <p>🟢</p>

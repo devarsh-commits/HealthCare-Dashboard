@@ -4,23 +4,28 @@ import hist from '../assets/history.svg'
 import calender from '../assets/calender.svg'
 import ap from '../assets/appointment.svg'
 import stat from '../assets/stat.svg'
-export const gendata=[{
-    icon:dash,
-    desc:"Dashboard"
+export const gendata = [{
+    id: 1,
+    icon: dash,
+    desc: "Dashboard"
 },
 {
-    icon:hist,
-    desc:"History"
+    id: 2,
+    icon: hist,
+    desc: "History"
 },
 {
-    icon:calender,
-    desc:"Calender"
+    id: 3,
+    icon: calender,
+    desc: "Calender"
 },
 {
-    icon:ap,
-    desc:"Appointment"
+    id: 4,
+    icon: ap,
+    desc: "Appointment"
 },
 {
-    icon:stat,
-    desc:"Statistics"
+    id: 5,
+    icon: stat,
+    desc: "Statistics"
 }]

@@ -14,6 +14,8 @@
 .sidebar {
     /* border: 2px solid red; */
     width: 18%;
+    height: 100%;
+    /* transform: translateX(10px) */
     /* margin-left: 8px; */
     /* margin-right: -1; */
 }
@@ -21,20 +23,16 @@
 .maincomp {
     /* border: 2px solid red; */
     width: 82%;
+    height: 100%;
     display: flex;
     /* margin-right: -6px; */
-}
-@media only screen and (max-width:1160px){
-    .maincomp{
-        border: 2px solid red;
-        flex-direction: column;
-    }
 }
 
 .maincomp .dashboard {
     /* border: 2px solid green; */
     box-sizing: border-box;
     width: 50%;
+    height: 100%;
       padding-left: 22px;
     padding-right: 22px;
 }
@@ -78,7 +76,7 @@
     box-sizing: border-box;
 /* border: 2px solid red; */
 width: 100%;
-height: 76vh;
+height: 92%;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -272,3 +270,75 @@ align-items: center;
     gap: 30px;
 
 }
+@media only screen and (max-width:912px){
+    .sidebar{
+        height: 70%;
+    }
+    .maincomp{
+        height: 70%;
+    }
+    .maincomp .dashboard{
+        height: 100%;
+    }
+    .healthstat .bdy-cont{
+        padding-top: 37px;
+    }
+}
+@media only screen and (max-width:769px){
+     .healthstat .bdy-cont{
+        padding-top: 7px;
+    }
+}
+@media only screen and (max-width:541px){
+    .main{
+        margin: 0;
+    }
+    .sidebar{
+        display: none;
+    }
+    .maincomp{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .maincomp .dashboard{
+        width: 100%;
+    }
+    .body{
+        justify-content: center;
+    }
+    .maincomp .schedule{
+        width: 100%;
+    }
+}
+    @media only screen and (max-width:412px){
+        .sch-subhead{
+            height: 0;
+            font-size: 0.9em;
+        }
+    
+    }
+    @media only screen and (max-width:412px){
+        .sch-subhead{
+            height: 0;
+            font-size: 0.9em;
+        }
+    
+    }
+    @media only screen and (max-width:412px){
+        .sch-subhead{
+            height: 0;
+            font-size: 0.9em;
+        }
+    
+    }
+    @media only screen and (max-width:412px){
+        .sch-subhead{
+            height: 0;
+            font-size: 0.9em;
+        }
+    
+    }
+
+   @media only screen and (max-width:376px){
+
+   }

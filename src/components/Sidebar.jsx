@@ -11,13 +11,13 @@ const Sidebar = () => {
        <div className='gen'>
          <div className='title'>General</div>
         {gendata.map(dt=>{
-          return <Navlink title={dt.sec} icon={dt.icon} desc={dt.desc}/>
+          return <Navlink key={dt.id} title={dt.sec} icon={dt.icon} desc={dt.desc}/>
         })}
        </div>
        <div className="gen">
         <div className='title'>Tools</div>
         {tools.map(dt=>{
-            return <Navlink icon={dt.icon} desc={dt.desc}/>
+            return <Navlink key={dt.id}icon={dt.icon} desc={dt.desc}/>
         })}
         <div className='links setting'>
             <img src={setting} alt="" />

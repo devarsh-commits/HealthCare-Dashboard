@@ -28,3 +28,36 @@
 .dr-name{
     font-size: 0.8em;
 }
+@media only screen and (max-width:1080px){
+    .Appoint{
+        padding: 7px;
+    }
+}
+@media only screen and (max-width:1006px){
+    .Appoint{
+        padding: 5px;
+    }
+    .Appoint .a-title{
+        font-size: 0.9em;
+    }
+    .Appoint .a-time{
+        font-size: 0.8em;
+    }
+    .Appoint .dr-name{
+        font-size: 0.8em;
+    }
+}
+@media only screen and (max-width:912px){
+    .a-title .t1{
+        white-space: wrap;
+       /* min-width: 0; */
+    }
+    .a-title{
+        gap: 1px;
+    }
+}
+@media only screen and (max-width:413px){
+    .Appoint{
+        min-width: 34vw;
+    }
+}

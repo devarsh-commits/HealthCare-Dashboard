@@ -2,7 +2,7 @@
 .side{
     /* border: 2px solid red; */
     width:100%;
-    height:84.5vh;
+    height:100%;
     /* margin-left: 7px; */
     background-color: rgb(246 250 255);
     display: flex;
@@ -37,4 +37,9 @@
 .setting{
     position: absolute;
     bottom: 10px;
+}
+@media only screen and (max-width:912px){
+    .links{
+        width: 14vw;
+    }
 }
