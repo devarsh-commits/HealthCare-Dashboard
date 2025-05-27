@@ -12,6 +12,10 @@ import { healthstat } from './data/healthstat'
 import arrow from './assets/arrow.svg'
 import Calender from './components/Calender'
 import { Caldata } from './data/Calenderdata'
+import AppointmentCard from './components/AppointmentCard'
+import { appointdt } from './data/Appointment'
+import { appointmentCards } from './data/Appointmentcard'
+import SimpleAppointmentCard from './components/SimpleAppointmentCard'
 
 function App() {
 
@@ -37,11 +41,11 @@ function App() {
               <div className="dashbody">
                 <div className=" container">
                   <div className="ana-body"><AnatomySec /></div>
-                   <div className="healthstat">
-                    {healthstat.map(dt=>{
-                      return <HealthStatus key={dt.label} label={dt.label} img={dt.img} date={dt.date} value={dt.value}/>
+                  <div className="healthstat">
+                    {healthstat.map(dt => {
+                      return <HealthStatus key={dt.label} label={dt.label} img={dt.img} date={dt.date} value={dt.value} />
                     })}
-                   </div>
+                  </div>
                 </div>
                 <div className="activity">hii</div>
               </div>
@@ -50,23 +54,50 @@ function App() {
               <div className="calhead">
                 <div className="title">October 2021</div>
                 <div className="arrow">
-                  <img src={arrow} alt="" className='arrow-rt' />
                   <img src={arrow} alt="" className='arrow-lt' />
+                  <img src={arrow} alt="" className='arrow-rt' />
                 </div>
               </div>
               <div className="cal-cont">
                 {
-                  [0,1,2,3,4].map((dt)=>{
-                   return Caldata[0].map((_,index)=>{
+                  [0, 1, 2, 3, 4].map((dt) => {
+                    return Caldata[0].map((_, index) => {
                       return <Calender
-                      val={Caldata[dt][index]}
+                        val={Caldata[dt][index]}
                       />
                     })
                   })
                 }
               </div>
               <div className="appointment">
-                
+                {
+                  appointdt.map(dt => {
+                    return <AppointmentCard key={dt.id} id={dt.id} title={dt.title} icon={dt.icon} time={dt.time} name={dt.name} present={dt.present} />
+                  })
+                }
+              </div>
+              <div className="upcomin-sch">
+                <div className="sch-head">
+                  The Upcoming Schedule
+                </div>
+                <div className="sch-1">
+                  <div className="sch-subhead">On Thursday</div>
+                  <div className="sch-cards">
+                    {appointmentCards.map(dt=>{
+                      return dt.day==='Thursday'&&(<SimpleAppointmentCard key={dt.title} day={dt.day} title={dt.title} icon={dt.icon} time={dt.time}/>)
+                    })}
+                  </div>
+                </div>
+                <div className="sch-2">
+                  <div className="sch-1">
+                    <div className="sch-subhead">On Saturday</div>
+                    <div className="sch-cards">
+                       {appointmentCards.map(dt=>{
+                      return dt.day==='Saturday'&&(<SimpleAppointmentCard key={dt.title} day={dt.day} title={dt.title} icon={dt.icon} time={dt.time}/>)
+                    })}
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

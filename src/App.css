@@ -7,7 +7,7 @@
 .body {
     /* border: 2px solid red; */
     width: 98vw;
-    height: 84vh;
+    height: 84.5vh;
     display: flex;
 }
 
@@ -64,7 +64,7 @@
     font-family: "Baloo 2", sans-serif;
     font-optical-sizing: auto;
     color: rgb(41 36 125);
-    font-weight: 600;
+    font-weight: 500;
     background: white;
 
 }
@@ -134,9 +134,19 @@ align-items: center;
     justify-content: flex-end;
     align-items: center;
 }
+.arrow img{
+    width: 25px;
+}
+.arrow-lt{
+    transform:rotate(180deg);
+    cursor: pointer;
+}
+.arrow-rt{
+    cursor: pointer;
+}
 .schedule .cal-cont{
     box-sizing: border-box;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 30%;
        display: grid;
     grid-template-columns: repeat(7,1fr);
@@ -191,11 +201,67 @@ align-items: center;
 }
 .cal-cont div:nth-child(25){
       
-      background-color:rgb(41, 34, 168);
+       background-color: rgb(171 176 220);
+      border-radius: 10px;
+      color: white;
+}
+.cal-cont div:nth-child(23){
+    background-color:rgb(41, 34, 168);
       border-radius: 10px;
       color: white;
 }
 .appointment{
-    border: 2px solid red;
-    height: 25%;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    height: 18%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 20px;
+    padding-top: 11px;
+}
+.schedule .upcomin-sch{
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    height:45%;
+       font-family: "Baloo 2", sans-serif;
+    font-optical-sizing: auto;
+      padding-left: 22px;
+    padding-right: 22px;    
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.sch-head{
+    box-sizing: border-box;
+    /* border: 1px solid orange;    */
+    height: 10%;
+      font-weight: bold;
+    color: rgb(41 36 125);
+    font-size: 1.2em;
+}
+.sch-1{
+    box-sizing: border-box;
+    height: 40%;
+}
+.sch-2{
+    box-sizing: border-box;
+    height: 40%;
+}
+.sch-subhead{
+    /* border: 1px solid green; */
+    height: 15%;
+    color: grey;
+        display: flex;
+    align-items: center;
+    padding: 5px;
+    font-weight: 600;
+    margin: 10px;
+}
+.sch-cards{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
 }

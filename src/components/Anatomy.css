@@ -11,7 +11,7 @@
 }
 .main-an img{
  width: 200px;
- object-fit: cover;
+ object-fit: contain;
 }
 .healthdt1{
     display: flex;

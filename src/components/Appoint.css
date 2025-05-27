@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+.Appoint{
+    /* border: 2px solid green; */
+   min-width: 10vw;
+    padding: 15px;
+    height: 60%;
+    background-color:rgb(41, 34, 168);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    color: white;
+       font-family: "Baloo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    object-fit: contain;
+}
+.a-title{
+    display: flex;
+    justify-content: space-between;
+    /* font-weight: 600; */
+    gap: 20px;
+    white-space: nowrap;
+}
+.a-time{
+    font-size: 0.8em;
+}
+.dr-name{
+    font-size: 0.8em;
+}
