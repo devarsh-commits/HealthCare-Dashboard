@@ -9,6 +9,7 @@
     flex-direction: column;
     gap: 25px;
     position: relative;
+    border-bottom-left-radius: 10px;
 
     
  

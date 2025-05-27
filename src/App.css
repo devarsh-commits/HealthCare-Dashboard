@@ -24,6 +24,12 @@
     display: flex;
     /* margin-right: -6px; */
 }
+@media only screen and (max-width:1160px){
+    .maincomp{
+        border: 2px solid red;
+        flex-direction: column;
+    }
+}
 
 .maincomp .dashboard {
     /* border: 2px solid green; */
@@ -110,6 +116,7 @@ align-items: center;
 }
 .schedule{
     /* border: 2px solid red; */
+    border-bottom-right-radius: 10px;
 }
 .calhead{
     box-sizing: border-box;

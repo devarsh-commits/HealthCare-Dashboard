@@ -16,6 +16,7 @@ import AppointmentCard from './components/AppointmentCard'
 import { appointdt } from './data/Appointment'
 import { appointmentCards } from './data/Appointmentcard'
 import SimpleAppointmentCard from './components/SimpleAppointmentCard'
+import Activity from './components/Activity'
 
 function App() {
 
@@ -47,7 +48,7 @@ function App() {
                     })}
                   </div>
                 </div>
-                <div className="activity">hii</div>
+                <div className="activity"><Activity/></div>
               </div>
             </div>
             <div className="schedule">

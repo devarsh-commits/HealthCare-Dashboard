@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+.Act-cont{
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+     background-color: rgb(246 250 255);
+       font-family: "Baloo 2", sans-serif;
+    font-optical-sizing: auto;
+}
+.act-header{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+.act-title{
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+       color: rgb(41 36 125);
+       font-weight: bold;
+}
+.sub-title{
+    box-sizing: border-box;
+    /* border: 2px solid green; */
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: gray;
+    font-size: 0.9em;
+}
+.bars{
+    box-sizing: border-box;
+    /* border: 2px solid orange; */
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.bar{
+  /* border: 2px solid green; */
+  width: 14.28%;
+  height: 100%;
+  display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.barday{
+    color: grey;
+}
+.barsec{
+box-sizing: border-box;
+/* border: 2px solid red; */
+width: 100%;
+height: 80%;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+.width{
+    width: 4px;
+}
+.border{
+    border-radius: 5px;
+}
+.sub-bar1{
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    height: 100%;
+    background-color: rgb(182, 177, 177);
+}
+.sub-bar2{
+    /* border: 2px solid black; */
+    height: 50%;
+    background-color: rgb(3 224 240);
+}
+.sub-bar3{
+    /* border: 2px solid black; */
+    height: 33%;
+    background-color: rgb(182, 177, 177);
+     position: relative;
+    top: 21px;
+}
+.sub-bar4{
+    /* border: 2px solid black; */
+    height: 20%;
+    background-color: rgb(182, 177, 177);
+        position: relative;
+    top: 40px;
+}
+
+
+
