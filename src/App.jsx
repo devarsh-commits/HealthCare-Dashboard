@@ -27,7 +27,9 @@ function App() {
         {/* created Header component for multiple use in many pages */}
         <div className="header"><Header /></div>
         <div className="body">
-          <div className="sidebar">
+          <div className="sidebar"> 
+            {/* This component will become invisible for making mobile responsive dashboard but Hamburger is added for representation */}
+            {/* as the using of hooks is not allowed i.e i have not used useRef and useState hook for toggling */}
             {/* using side bar component that is reusable */}
             <Sidebar />
           </div>
