@@ -22,7 +22,7 @@ const AnatomySec = () => {
                         <p>Issue leg</p>
                         <p>🔴</p>
                     </div>
-                        <img src={scan} alt="" />
+                    <img src={scan} alt="" />
                 </div>
 
 

@@ -3,14 +3,14 @@
 .bdy-cont {
     box-sizing: border-box;
     /* border: 2px solid yellow; */
-      background-color: rgb(246 250 255);
+    background-color: rgb(246 250 255);
     border-radius: 15px;
     width: 80%;
     height: 30%;
     padding-left: 15px;
     padding-top: 10px;
     margin-left: 30px;
-    
+
 }
 
 .bdy-status {
@@ -30,6 +30,22 @@
     font-family: "Baloo 2", sans-serif;
     font-optical-sizing: auto;
 }
-.bdy-cont .prog{
-    width:70%;
+
+.bdy-cont .prog {
+    width: 70%;
+}
+
+@media only screen and (max-width:393px) {
+    .name {
+        font-size: 0.8em;
+    }
+
+    .date {
+        font-size: 0.5em;
+    }
+
+    .prog {
+        height: 4px;
+        margin-bottom: 5px;
+    }
 }

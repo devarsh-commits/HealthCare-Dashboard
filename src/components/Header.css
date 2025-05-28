@@ -96,7 +96,7 @@
     /* border: 2px solid red; */
     width: 40px;
     height: 35px;
-    object-fit: cover;
+    object-fit: contain;
     object-position:top;
     border-radius: 8px;
 }
@@ -144,11 +144,20 @@
         font-size: 0.8em;
     }
 }
-@media only screen and (max-width:391px){
+@media only screen and (max-width:393px){
     .plus{
         margin-right: 19px;
     }
     .logosec img{
         margin-left: 9px;
+    }
+    .header .plus{
+        margin-left: 3px;
+        font-size: 1em;
+        height: 19px;
+        border-radius: 4px;
+    }
+    .logosec{
+        font-size: 0.55em;
     }
 }

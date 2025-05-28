@@ -1,0 +1,22 @@
+export const calval=[
+    {
+        id:'a',
+        val:0
+    },
+     {
+        id:'b',
+        val:1
+    },
+     {
+        id:'c',
+        val:2
+    },
+     {
+        id:'d',
+        val:3
+    },
+     {
+        id:'e',
+        val:4
+    }
+]

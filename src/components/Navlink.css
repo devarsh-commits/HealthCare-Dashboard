@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
-.links{
+
+.links a {
     /* border: 2px solid red; */
     width: 10vw;
     display: flex;
-     font-family: "Baloo 2", sans-serif;
+    font-family: "Baloo 2", sans-serif;
     font-optical-sizing: auto;
     font-size: 1em;
     color: #9B9B9B;
@@ -11,12 +12,15 @@
     align-items: center;
     cursor: pointer;
     margin-left: 18px;
+    text-decoration: none;
 }
-.links img{
+
+.links img {
     width: 22px;
 }
-@media only screen and (max-width:855px){
-    .links{
+
+@media only screen and (max-width:855px) {
+    .links {
         font-size: 0.7em;
     }
 }

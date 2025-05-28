@@ -3,8 +3,8 @@ import './Navlink.css'
 const Navlink = ({title,icon,desc}) => {
   return (
     <div className='links'>
-        <img src={icon} alt="" />
-        <div>{desc}</div>
+      <a href="/">   <img src={icon} alt="" />
+        <div>{desc}</div>  </a>
     </div>
   )
 }

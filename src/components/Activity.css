@@ -103,6 +103,20 @@ gap: 10px;
         gap: 7px;
     }
 }
+@media only screen and (max-width:393px){
+    .act-title{
+        font-size: 0.8em;
+    }
+    .sub-title{
+        font-size: 0.6em;
+    }
+    .barsec{
+        gap: 4px;
+    }
+    .barday{
+        font-size: 0.6em;
+    }
+}
 
 
 
